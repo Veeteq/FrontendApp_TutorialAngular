@@ -3,6 +3,7 @@
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.7.
 
 ng new TutorialECom --skip-tests
+npm install tailwindcss @tailwindcss/postcss postcss --force
 
 
 ## Development server

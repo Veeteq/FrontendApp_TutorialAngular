@@ -5,7 +5,7 @@ import { PrimaryButton } from '../reusable/primary-button/primary-button';
   selector: 'app-header',
   imports: [PrimaryButton],
   templateUrl: './header.html',
-  styleUrl: './header.scss',
+  styleUrl: './header.css',
 })
 export class Header {
   title = signal('My E-Commerce App');

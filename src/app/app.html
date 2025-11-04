@@ -1,4 +1,10 @@
 <app-header></app-header>
 <h1 class="text-3xl font-bold underline">
-  Hello world!
+  <p>Hello world!</p>
 </h1>
+
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+  <label for="date">Select a date:</label>
+  <input type="date" id="date" formControlName="date">
+  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded" type="submit">Submit</button>
+</form>
